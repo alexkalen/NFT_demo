@@ -59,7 +59,7 @@ contract AdvancedCollectible is ERC721, VRFConsumerBase {
         tokenCounter = tokenCounter + 1;
     }
 
-    //This should be done in the fullfill function
+    //This should be done in the fullfill function for better decentralization
     function setTokenUri(uint256 tokenId, string memory _tokenURI) public {
         //pug, shiba, st bernard
         require(
