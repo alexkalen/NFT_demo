@@ -1,10 +1,7 @@
-from random import random
-from brownie import network, AdvancedCollectible
+from brownie import network
 import time
 from scripts.helpful_scripts import (
     LOCAL_BLOCKCHAIN_ENVIRONMENTS,
-    get_contract,
-    get_account,
 )
 import pytest
 from scripts.advanced_collectible.deploy_and_create import deploy_and_create
